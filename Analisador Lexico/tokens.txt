@@ -1,5 +1,5 @@
 <constant>::=<integer-constant> | <character-constant> | <constant-identifier>
-<constant identifier>::=<identifier>
+<constant-identifier>::=<identifier>
 <identifier>::=<letter> <identifier-2>
 <identifier-2>::=<letter-or-digit> | 
 <letter-or-digit>::=<letter> | <digit>

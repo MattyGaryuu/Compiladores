@@ -4,10 +4,12 @@ var
   numero1, numero2: integer;
   i: integer;
   z, d: char;
+  k: array[1..5] of integer;
 
 begin
   numero1 := 10;
   numero2 := 10;
+  k[2] := 10;
   z:= 'Manchester city';
   d:= z;
 

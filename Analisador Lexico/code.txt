@@ -6,6 +6,7 @@ var
   z, d: char;
   k: array[1..5] of integer;
 
+function SomaArray(k: array of integer; i: integer): integer;
 begin
   numero1 := 10;
   numero2 := 10;

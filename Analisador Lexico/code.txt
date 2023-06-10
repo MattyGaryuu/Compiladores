@@ -1,20 +1,22 @@
 //exemplo
 program Exemplo;
 var
-  numero1: integer;
-  numero2: double;
+  numero1, numero2: integer;
   i: integer;
+  z, d: char;
 
 begin
   numero1 := 10;
-  numero2 := 10.0;
+  numero2 := 10;
+  z:= 'Manchester city';
+  d:= z;
 
-  for i := 1 to 5 do
+  i := 1;
+  while i <= 5 do
   begin
-    writeln('i:', i);
     numero1 := numero1 + 1;
-    numero2 := numero2 + 2.0;
+    numero2 := numero2 + 2;
+    i := i + 1;
   end;
 
-  writeln('Fim do programa.');
 end.
